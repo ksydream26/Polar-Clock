@@ -25,6 +25,9 @@ jobs:
         with:
           gradle-version: '8.7'
 
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+
       - name: Prepare Android SDK
         run: sdkmanager "platforms;android-34" "build-tools;34.0.0"
 
