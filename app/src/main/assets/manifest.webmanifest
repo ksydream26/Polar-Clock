@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Polar Clock",
+  "short_name": "Polar Clock",
+  "description": "GPS와 국내 지명 검색을 지원하는 오프라인 극축정렬 시계",
+  "lang": "ko",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#17191c",
+  "theme_color": "#17191c",
+  "orientation": "any",
+  "categories": ["utilities", "education"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
