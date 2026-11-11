@@ -3,7 +3,7 @@
 // Cache Storage is shared by all apps on an origin. Keep subpath apps separate.
 const SCOPE_URL = new URL(self.registration.scope);
 const CACHE_PREFIX = `polar-clock:${encodeURIComponent(SCOPE_URL.pathname)}:`;
-const VERSION = '230adbdeaa9f964f';
+const VERSION = '9c3dbaa30139a773';
 const CACHE_NAME = `${CACHE_PREFIX}${VERSION}`;
 const APP_FILES = [
   './index.html',
